@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Main from '../src/component/main';
 
 class App extends Component {
   render() {
     return (
       <div>
-        Joon Hee 존잘레스 <br></br>
-        린정 어린정
+        <Main/>
       </div>
     );
   }
